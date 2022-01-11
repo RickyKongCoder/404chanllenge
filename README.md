@@ -31,7 +31,7 @@
 
 ## Overview
 
-![screenshot](./demo1.png)
+![screenshot](./demo1.PNG)
 
 ### Built With
 
