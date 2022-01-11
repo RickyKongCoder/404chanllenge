@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400&family=Space+Mono&display=swap" rel="stylesheet">
+
+    <title>Devchallenges</title>
+
+    <style>
+     #header{
+      /* position: absolute; */
+
+
+      font-family: 'Inconsolata', monospace;
+      font-size: 24px;
+      font-weight: 700;
+      font-style: normal;
+      font-stretch: condensed;
+      letter-spacing: -0.08em;
+      line-height: 25px;
+      text-transform: uppercase;
+      color: #333333;
+      padding: 0%;
+      width: 133px;
+      height: 25px;
+      margin: 40px 0px 0px 77px;
+     }
+
+     #image{
+       width: 539.22px;
+       height: 447.43px;
+
+
+     }
+     #center{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 10% 0%;
+      padding: 0% 10%;
+     }
+     #centerleft{
+       display:flex;
+       justify-content: center;
+     }
+     #title{
+       font-family: 'Space Mono', monospace;
+       font-size: 64px;
+       font-weight: 700;
+       line-height: 94.78px;
+       width: 90%;
+       margin:0% 0% 6% 0%;
+     }
+     #subtext{
+       font-family: 'Space Mono', monospace;
+       font-weight: 400;
+       font-size: 24px;
+       line-height: 35.54px;
+       margin:0% 0% 10% 0%;
+     }
+     button{
+       font-family: 'Space Mono', monospace;
+       font-weight: 700;
+       font-size: 14px;
+       color:#FFFFFF;
+       border-radius: 4px;
+       background-color: #333333;
+       width: 216px;
+       height: 68px;
+    
+     }
+     @media screen and (max-width: 1300px) {
+      #center{
+      display: block;
+      margin: 10% 0%;
+      padding: 0% 10%;
+     }
+     #title, #subtext {
+       text-align: center;
+       width: 100%;
+
+     }
+     #button{
+       display: flex;
+       justify-content: center;
+     }
+      
+    }
+    </style>
+  </head>
+  <body>
+   <div id = "header">404 Not Found</div>
+   <div id ="center">
+   <div id="centerleft">
+    <img id="image" src="./Scarecrow.png"></img>
+   </div>
+      
+
+    <div id="centerright">
+        <div id="title">
+            I have bad news for you
+        </div >
+        <div id ="subtext">
+          The page you are looking<br> for might be removed or is<br> temporarily unavailable
+        </div>
+        <div id="button">
+         <button> Back to homepage</button>
+        </div>
+    </div>
+
+   </div>
+  </body>
+</html>
